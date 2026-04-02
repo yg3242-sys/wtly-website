@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <title>味潭龙韵 · 新中式融合菜</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== 导航栏 ===== -->
+  <header class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">
+        <img src="logo/logo1.jpg" alt="味潭龙韵" class="logo-img" />
+      </a>
+      <nav class="nav-links" id="nav-links">
+        <a href="#about">餐厅介绍</a>
+        <a href="#seasonal">季节活动</a>
+        <a href="#packages">团购套餐</a>
+        <a href="#menu">精品菜肴</a>
+        <a href="#rooms">雅致包厢</a>
+        <a href="#contact">预约联系</a>
+      </nav>
+      <a href="tel:18913964141" class="nav-cta">立即预订</a>
+      <button class="hamburger" id="hamburger" aria-label="菜单">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <!-- 背景层 -->
+    <div class="hero-bg">
+      <div class="hero-bg-layer1"></div>
+      <div class="hero-bg-layer2"></div>
+    </div>
+    <!-- 装饰线 -->
+    <div class="hero-deco-line left"></div>
+    <div class="hero-deco-line right"></div>
+    <!-- 角落装饰 -->
+    <div class="hero-corner tl"></div>
+    <div class="hero-corner tr"></div>
+    <div class="hero-corner bl"></div>
+    <div class="hero-corner br"></div>
+
+    <div class="hero-content">
+      <div class="hero-badge">
+        <div class="hero-badge-dot"></div>
+        <span>新中式融合菜 &nbsp;·&nbsp; 高端商务宴请</span>
+        <div class="hero-badge-dot"></div>
+      </div>
+      <h1 class="hero-title">味潭龙韵</h1>
+      <p class="hero-en">WEI TAN LONG YUN</p>
+      <p class="hero-tagline">匠心烹饪，以味会友，龙韵天下</p>
+      <div class="hero-btns">
+        <a href="#contact" class="btn btn-primary">预约雅座</a>
+        <a href="#menu" class="btn btn-outline">品鉴菜单</a>
+      </div>
+    </div>
+
+    <div class="hero-scroll" onclick="document.getElementById('about').scrollIntoView({behavior:'smooth'})">
+      <span>SCROLL</span>
+      <div class="hero-scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ===== 餐厅介绍 ===== -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">关于我们</span>
+        <h2 class="section-title">一味一世界，<br/>龙韵天地间</h2>
+        <div class="divider-gold"><div class="divider-gold-inner"></div></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-text fade-up">
+          <p>味潭龙韵，坐落于城市核心地带，专注新中式融合菜肴的极致呈现。我们融汇南北烹饪精髓，以当季食材为本，以匠心工艺为魂，打造每一道令人难忘的佳肴。</p>
+          <p>餐厅专为高端商务宴请而生——无论是政务接待、企业招待，抑或重要的家宴时刻，我们的专业服务团队将为您量身打造专属宴席体验。</p>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-num">10+</span>
+              <span class="stat-label">精品包厢</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">100+</span>
+              <span class="stat-label">特色菜品</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">专属</span>
+              <span class="stat-label">私人管家服务</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-visual fade-up" style="--delay:120ms">
+          <div class="about-logo-wrap">
+            <img src="logo/logo2.jpg" alt="味潭龙韵" class="about-logo" />
+          </div>
+          <div class="about-tag">新中式融合菜</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 季节活动 ===== -->
+  <section class="seasonal section" id="seasonal">
+    <div class="container">
+      <div class="section-header light fade-up">
+        <span class="section-label">季节限定</span>
+        <h2 class="section-title">时令佳节，<br/>味满龙韵</h2>
+        <div class="divider-gold"><div class="divider-gold-inner"></div></div>
+      </div>
+      <div class="seasonal-grid">
+
+        <div class="seasonal-card fade-up">
+          <div class="seasonal-card-img placeholder-img">
+            <div class="placeholder-content">
+              <span class="placeholder-icon">🎋</span>
+              <span>端午粽子礼盒图片</span>
+            </div>
+          </div>
+          <div class="seasonal-card-body">
+            <span class="event-tag">端午节 · 限时特供</span>
+            <h3>龙韵手工粽礼盒</h3>
+            <p>甄选上等糯米与精致馅料，以传统工艺手工制作。咸蛋黄鲜肉、蜜枣豆沙等多种口味，礼盒装帧精美，适合馈赠佳品。</p>
+            <ul class="event-details">
+              <li>预订时间：即日起至6月初</li>
+              <li>提货方式：到店自取 / 专人配送</li>
+              <li>礼盒规格：6粒装 / 12粒装</li>
+            </ul>
+            <a href="tel:18913964141" class="btn btn-primary btn-sm">电话预订</a>
+          </div>
+        </div>
+
+        <div class="seasonal-card fade-up" style="transition-delay:80ms">
+          <div class="seasonal-card-img placeholder-img">
+            <div class="placeholder-content">
+              <span class="placeholder-icon">🌿</span>
+              <span>青团礼盒图片</span>
+            </div>
+          </div>
+          <div class="seasonal-card-body">
+            <span class="event-tag">四月 · 清明限定</span>
+            <h3>江南青团礼盒</h3>
+            <p>以新鲜艾草汁调制，外皮软糯清香，内馅细腻甘甜。咸蛋黄肉松、红豆沙、抹茶奶油等多款口味，春日馈赠之选。</p>
+            <ul class="event-details">
+              <li>预订时间：3月下旬起</li>
+              <li>提货方式：到店自取 / 专人配送</li>
+              <li>礼盒规格：8粒装 / 16粒装</li>
+            </ul>
+            <a href="tel:18913964141" class="btn btn-primary btn-sm">电话预订</a>
+          </div>
+        </div>
+
+        <div class="seasonal-card fade-up" style="transition-delay:160ms">
+          <div class="seasonal-card-img placeholder-img">
+            <div class="placeholder-content">
+              <span class="placeholder-icon">🦞</span>
+              <span>招牌龙虾图片</span>
+            </div>
+          </div>
+          <div class="seasonal-card-body">
+            <span class="event-tag">夏季限定 · 外卖专供</span>
+            <h3>招牌小龙虾外卖</h3>
+            <p>精选肥美小龙虾，秘制香辣、蒜香、十三香三种口味，现做现送，锁住鲜美原汁。无需出门，尽享龙韵风味。</p>
+            <ul class="event-details">
+              <li>配送范围：周边5公里</li>
+              <li>配送时间：11:00 – 20:30</li>
+              <li>美团平台下单，快速配送</li>
+            </ul>
+            <a href="#meituan-link" class="btn btn-primary btn-sm">美团点单</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 美团团购套餐 ===== -->
+  <section class="packages section" id="packages">
+    <div class="container">
+      <div class="section-header fade-up">
+        <span class="section-label">美团团购</span>
+        <h2 class="section-title">臻选宴席套餐，<br/>限时优惠</h2>
+        <div class="divider-gold"><div class="divider-gold-inner"></div></div>
+        <p class="section-desc">多款精选宴席套餐，涵盖双人餐至十人宴，性价比之选。点击前往美团即可购买。</p>
+      </div>
+
+      <div class="packages-grid">
+
+        <!-- 套餐1 -->
+        <div class="pkg-card fade-up">
+          <div class="pkg-header">
+            <span class="pkg-badge">联名推荐</span>
+            <h3>午市专享 · 至臻6人餐</h3>
+            <p class="pkg-sub">含498元苹果丝瓜珍宝蟹</p>
+          </div>
+          <div class="pkg-price">
+            <span class="pkg-price-now">¥1,559</span>
+            <span class="pkg-discount">4.8折</span>
+            <span class="pkg-price-ori">¥3,270</span>
+          </div>
+          <div class="pkg-dishes">
+            <div class="pkg-dishes-label">套餐菜品</div>
+            <ul class="pkg-dish-list">
+              <li class="dish-placeholder">菜品待补充</li>
+              <li class="dish-placeholder">菜品待补充</li>
+              <li class="dish-placeholder">菜品待补充</li>
+            </ul>
+          </div>
+          <a href="http://dpurl.cn/o8D15suz" target="_blank" rel="noopener" class="btn btn-primary btn-sm pkg-btn">美团抢购</a>
+        </div>
+
+        <!-- 套餐2 -->
+        <div class="pkg-card fade-up" style="transition-delay:60ms">
+          <div class="pkg-header">
+            <span class="pkg-badge pkg-badge-brand">品牌主推</span>
+            <h3>融五味 · 尊享豪华八人餐</h3>
+            <p class="pkg-sub">含498元浓汤珍宝蟹丝瓜</p>
+          </div>
+          <div class="pkg-price">
+            <span class="pkg-price-now">¥2,259</span>
+            <span class="pkg-discount">6.2折</span>
+            <span class="pkg-price-ori">¥3,682</span>
+          </div>
+          <div class="pkg-dishes">
+            <div class="pkg-dishes-label">套餐菜品</div>
+            <ul class="pkg-dish-list">
+              <li class="dish-placeholder">菜品待补充</li>
+              <li class="dish-placeholder">菜品待补充</li>
+              <li class="dish-placeholder">菜品待补充</li>
+            </ul>
+          </div>
+          <a href="http://dpurl.cn/o8D15suz" target="_blank" rel="noopener" class="btn btn-primary btn-sm pkg-btn">美团抢购</a>
+        </div>
+
+        <!-- 套餐3 -->
+        <div class="pkg-card fade-up" style="transition-delay:120ms">
+          <div class="pkg-header">
+            <span class="pkg-badge">限时优惠</span>
+            <h3>豪华佛跳墙大波龙十人餐</h3>
+            <p class="pkg-sub">含598元三葱爆波士顿龙虾</p>
+          </div>
+          <div class="pkg-price">
+            <span class="pkg-price-now">¥3,370</span>
+            <span class="pkg-discount">5.8折</span>
+            <span class="pkg-price-ori">¥5,848</span>
+          </div>
+          <div class="pkg-dishes">
+            <div class="pkg-dishes-label">套餐菜品</div>
+            <ul class="pkg-dish-list">
+              <li class="dish-placeholder">菜品待补充</li>
+              <li class="dish-placeholder">菜品待补充</li>
+              <li class="dish-placeholder">菜品待补充</li>
+            </ul>
+          </div>
+          <a href="http://dpurl.cn/o8D15suz" target="_blank" rel="noopener" class="btn btn-primary btn-sm pkg-btn">美团抢购</a>
+        </div>
+
+        <!-- 套餐4 -->
+        <div class="pkg-card pkg-card-featured fade-up" style="transition-delay:180ms">
+          <div class="pkg-header">
+            <span class="pkg-badge pkg-badge-deal">尝鲜价 · 秒杀</span>
+            <h3>午市江浙菜双人餐</h3>
+            <p class="pkg-sub">含88元肉酱辽参蒸水蛋</p>
+          </div>
+          <div class="pkg-price">
+            <span class="pkg-price-now">¥89</span>
+            <span class="pkg-discount">1.5折</span>
+            <span class="pkg-price-ori">¥602</span>
+          </div>
+          <div class="pkg-dishes">
+            <div class="pkg-dishes-label">套餐菜品</div>
+            <ul class="pkg-dish-list">
+              <li class="dish-placeholder">菜品待补充</li>
+              <li class="dish-placeholder">菜品待补充</li>
+              <li class="dish-placeholder">菜品待补充</li>
+            </ul>
+          </div>
+          <a href="http://dpurl.cn/o8D15suz" target="_blank" rel="noopener" class="btn btn-gold btn-sm pkg-btn">立即秒杀</a>
+        </div>
+
+        <!-- 套餐5 -->
+        <div class="pkg-card fade-up" style="transition-delay:240ms">
+          <div class="pkg-header">
+            <span class="pkg-badge">限时优惠</span>
+            <h3>品韵味 · 臻选10人宴</h3>
+            <p class="pkg-sub">含598元波士顿龙虾二吃</p>
+          </div>
+          <div class="pkg-price">
+            <span class="pkg-price-now">¥2,659</span>
+            <span class="pkg-discount">6.9折</span>
+            <span class="pkg-price-ori">¥3,888</span>
+          </div>
+          <div class="pkg-dishes">
+            <div class="pkg-dishes-label">套餐菜品</div>
+            <ul class="pkg-dish-list">
+              <li class="dish-placeholder">菜品待补充</li>
+              <li class="dish-placeholder">菜品待补充</li>
+              <li class="dish-placeholder">菜品待补充</li>
+            </ul>
+          </div>
+          <a href="http://dpurl.cn/o8D15suz" target="_blank" rel="noopener" class="btn btn-primary btn-sm pkg-btn">美团抢购</a>
+        </div>
+
+        <!-- 套餐6 -->
+        <div class="pkg-card fade-up" style="transition-delay:300ms">
+          <div class="pkg-header">
+            <span class="pkg-badge">限时优惠</span>
+            <h3>春韵轻享 · 午市双人餐</h3>
+            <p class="pkg-sub">含398元小青龙麻辣豆腐</p>
+          </div>
+          <div class="pkg-price">
+            <span class="pkg-price-now">¥389</span>
+            <span class="pkg-discount">2.9折</span>
+            <span class="pkg-price-ori">¥1,370</span>
+          </div>
+          <div class="pkg-dishes">
+            <div class="pkg-dishes-label">套餐菜品</div>
+            <ul class="pkg-dish-list">
+              <li class="dish-placeholder">菜品待补充</li>
+              <li class="dish-placeholder">菜品待补充</li>
+              <li class="dish-placeholder">菜品待补充</li>
+            </ul>
+          </div>
+          <a href="http://dpurl.cn/o8D15suz" target="_blank" rel="noopener" class="btn btn-primary btn-sm pkg-btn">美团抢购</a>
+        </div>
+
+        <!-- 套餐7 -->
+        <div class="pkg-card fade-up" style="transition-delay:360ms">
+          <div class="pkg-header">
+            <span class="pkg-badge">限时优惠</span>
+            <h3>尊享宴 · 午市4人餐</h3>
+            <p class="pkg-sub">含398元小青龙麻辣豆腐</p>
+          </div>
+          <div class="pkg-price">
+            <span class="pkg-price-now">¥1,059</span>
+            <span class="pkg-discount">4.6折</span>
+            <span class="pkg-price-ori">¥2,316</span>
+          </div>
+          <div class="pkg-dishes">
+            <div class="pkg-dishes-label">套餐菜品</div>
+            <ul class="pkg-dish-list">
+              <li class="dish-placeholder">菜品待补充</li>
+              <li class="dish-placeholder">菜品待补充</li>
+              <li class="dish-placeholder">菜品待补充</li>
+            </ul>
+          </div>
+          <a href="http://dpurl.cn/o8D15suz" target="_blank" rel="noopener" class="btn btn-primary btn-sm pkg-btn">美团抢购</a>
+        </div>
+
+      </div>
+
+      <div class="packages-cta fade-up">
+        <p>查看更多套餐及最新优惠</p>
+        <a href="http://dpurl.cn/o8D15suz" target="_blank" rel="noopener" class="btn btn-primary">前往美团查看全部套餐</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 精品菜肴 ===== -->
+  <section class="menu section" id="menu">
+    <div class="container">
+      <div class="section-header fade-up">
+        <span class="section-label">精品菜肴</span>
+        <h2 class="section-title">以味传情，<br/>匠心成就每一道</h2>
+        <div class="divider-gold"><div class="divider-gold-inner"></div></div>
+      </div>
+
+      <div class="menu-tabs-wrap">
+        <div class="menu-tabs">
+          <button class="tab-btn active" data-tab="cold">冷菜前菜</button>
+          <button class="tab-btn" data-tab="hot">热菜主食</button>
+          <button class="tab-btn" data-tab="signature">招牌特色</button>
+          <button class="tab-btn" data-tab="soup">汤羹炖品</button>
+          <button class="tab-btn" data-tab="dessert">甜点茶饮</button>
+        </div>
+      </div>
+
+      <div class="menu-grid" id="menu-grid">
+
+        <!-- 冷菜前菜 -->
+        <div class="menu-card fade-up" data-category="cold">
+          <div class="menu-card-img"><img src="菜品图片/冰镇茅台酒龙虾.jpg" alt="冰镇茅台酒龙虾" /></div>
+          <div class="menu-card-body"><h4>冰镇茅台酒龙虾</h4><p>以茅台佳酿腌浸，冰镇入味，虾肉弹嫩清甜，酒香萦绕</p></div>
+        </div>
+        <div class="menu-card fade-up" data-category="cold" style="transition-delay:80ms">
+          <div class="menu-card-img"><img src="菜品图片/蔬菜沙拉.jpg" alt="蔬菜沙拉" /></div>
+          <div class="menu-card-body"><h4>时令蔬菜沙拉</h4><p>精选应季有机蔬菜，搭配特调酱汁，清爽开胃</p></div>
+        </div>
+        <div class="menu-card fade-up" data-category="cold" style="transition-delay:160ms">
+          <div class="menu-card-img"><img src="菜品图片/香卤乳鸽.jpg" alt="香卤乳鸽" /></div>
+          <div class="menu-card-body"><h4>香卤乳鸽</h4><p>秘制十二味卤料浸泡，皮脆肉嫩，香气四溢</p></div>
+        </div>
+
+        <!-- 热菜主食 -->
+        <div class="menu-card" data-category="hot" style="display:none">
+          <div class="menu-card-img"><img src="菜品图片/脆皮鲥鱼.jpg" alt="脆皮鲥鱼" /></div>
+          <div class="menu-card-body"><h4>脆皮鲥鱼</h4><p>时令鲥鱼精制，外皮金黄酥脆，鱼肉鲜嫩细腻</p></div>
+        </div>
+        <div class="menu-card" data-category="hot" style="display:none">
+          <div class="menu-card-img"><img src="菜品图片/橙香脆皮牛肉.jpg" alt="橙香脆皮牛肉" /></div>
+          <div class="menu-card-body"><h4>橙香脆皮牛肉</h4><p>鲜橙汁腌制，外酥里嫩，果香与肉香交融</p></div>
+        </div>
+        <div class="menu-card" data-category="hot" style="display:none">
+          <div class="menu-card-img"><img src="菜品图片/韭菜腰花.jpg" alt="韭菜腰花" /></div>
+          <div class="menu-card-body"><h4>韭菜腰花</h4><p>精选猪腰改刀去腥，旺火爆炒，脆嫩鲜香</p></div>
+        </div>
+        <div class="menu-card" data-category="hot" style="display:none">
+          <div class="menu-card-img"><img src="菜品图片/春笋豆瓣烩猪肚.jpg" alt="春笋豆瓣烩猪肚" /></div>
+          <div class="menu-card-body"><h4>春笋豆瓣烩猪肚</h4><p>当季春笋配猪肚，豆瓣酱提鲜，层次丰富</p></div>
+        </div>
+        <div class="menu-card" data-category="hot" style="display:none">
+          <div class="menu-card-img"><img src="菜品图片/香椿涨蛋.jpg" alt="香椿涨蛋" /></div>
+          <div class="menu-card-body"><h4>香椿涨蛋</h4><p>春日限定，新鲜香椿嫩芽与土鸡蛋融合，清香软嫩</p></div>
+        </div>
+        <div class="menu-card" data-category="hot" style="display:none">
+          <div class="menu-card-img"><img src="菜品图片/黄贡椒蒸黄鳝.jpg" alt="黄贡椒蒸黄鳝" /></div>
+          <div class="menu-card-body"><h4>黄贡椒蒸黄鳝</h4><p>鲜活黄鳝配黄贡椒，清蒸锁鲜，鲜辣爽口</p></div>
+        </div>
+        <div class="menu-card" data-category="hot" style="display:none">
+          <div class="menu-card-img"><img src="菜品图片/石锅萝卜糕.jpg" alt="石锅萝卜糕" /></div>
+          <div class="menu-card-body"><h4>石锅萝卜糕</h4><p>传统港式萝卜糕以石锅呈现，外脆内软，香气扑鼻</p></div>
+        </div>
+        <div class="menu-card" data-category="hot" style="display:none">
+          <div class="menu-card-img"><img src="菜品图片/砂锅红烧鱼头.jpg" alt="砂锅红烧鱼头" /></div>
+          <div class="menu-card-body"><h4>砂锅红烧鱼头</h4><p>大头鱼慢火红烧，汤汁浓郁，鱼肉入口即化</p></div>
+        </div>
+        <div class="menu-card" data-category="hot" style="display:none">
+          <div class="menu-card-img"><img src="菜品图片/豉油面饼.jpg" alt="豉油面饼" /></div>
+          <div class="menu-card-body"><h4>豉油面饼</h4><p>手工面饼配特制豉油，煎至金黄，简约而不失风味</p></div>
+        </div>
+
+        <!-- 招牌特色 -->
+        <div class="menu-card" data-category="signature" style="display:none">
+          <div class="menu-card-img"><img src="菜品图片/龙腾四海.jpg" alt="龙腾四海" /></div>
+          <div class="menu-card-body"><h4>龙腾四海</h4><p>整只波龙居中，周围配以龙虾汤小盅，气势恢宏，宴席之王</p></div>
+        </div>
+        <div class="menu-card" data-category="signature" style="display:none">
+          <div class="menu-card-img"><img src="菜品图片/大红袍东星斑.jpg" alt="大红袍东星斑" /></div>
+          <div class="menu-card-body"><h4>大红袍东星斑</h4><p>以顶级大红袍茶汤浸制，鱼肉鲜甜，茶香萦绕，融合佳作</p></div>
+        </div>
+        <div class="menu-card" data-category="signature" style="display:none">
+          <div class="menu-card-img"><img src="菜品图片/岩板烤松叶蟹.jpg" alt="岩板烤松叶蟹" /></div>
+          <div class="menu-card-body"><h4>岩板烤松叶蟹</h4><p>进口松叶蟹置于灼热岩板之上，现烤现食，原汁鲜甜</p></div>
+        </div>
+        <div class="menu-card" data-category="signature" style="display:none">
+          <div class="menu-card-img"><img src="菜品图片/荠菜炒辽参.jpg" alt="荠菜炒辽参" /></div>
+          <div class="menu-card-body"><h4>荠菜炒辽参</h4><p>春日荠菜搭配辽宁海参，清雅鲜美，滋补养颜</p></div>
+        </div>
+        <div class="menu-card" data-category="signature" style="display:none">
+          <div class="menu-card-img"><img src="菜品图片/蒜泥龙虾.jpg" alt="蒜泥龙虾" /></div>
+          <div class="menu-card-body"><h4>蒜泥龙虾</h4><p>秘制蒜泥覆于鲜活龙虾之上，蒜香浓郁，鲜嫩弹牙</p></div>
+        </div>
+        <div class="menu-card" data-category="signature" style="display:none">
+          <div class="menu-card-img"><img src="菜品图片/清蒸小龙虾.jpg" alt="清蒸小龙虾" /></div>
+          <div class="menu-card-body"><h4>清蒸小龙虾</h4><p>鲜活小龙虾原味清蒸，保留最纯粹的鲜甜，蘸酱随附</p></div>
+        </div>
+
+        <!-- 汤羹炖品 -->
+        <div class="menu-card" data-category="soup" style="display:none">
+          <div class="menu-card-img"><img src="菜品图片/明月炖生敲.jpg" alt="明月炖生敲" /></div>
+          <div class="menu-card-body"><h4>明月炖生敲</h4><p>黄鳝切段油炸后文火慢炖，汤色清亮，入味深透，传统苏帮名菜</p></div>
+        </div>
+        <div class="menu-card" data-category="soup" style="display:none">
+          <div class="menu-card-img"><img src="菜品图片/砂锅鲍鱼脱骨鸡.jpg" alt="砂锅鲍鱼脱骨鸡" /></div>
+          <div class="menu-card-body"><h4>砂锅鲍鱼脱骨鸡</h4><p>整鸡去骨填入鲍鱼，砂锅慢煨，汤汁醇厚，滋补暖胃</p></div>
+        </div>
+
+        <!-- 甜点茶饮 -->
+        <div class="menu-card" data-category="dessert" style="display:none">
+          <div class="menu-card-img placeholder-img"><div class="placeholder-content"><span>图片即将更新</span></div></div>
+          <div class="menu-card-body"><h4>桂花糯米藕</h4><p>江南经典，桂花香气萦绕，甜而不腻</p></div>
+        </div>
+        <div class="menu-card" data-category="dessert" style="display:none">
+          <div class="menu-card-img placeholder-img"><div class="placeholder-content"><span>图片即将更新</span></div></div>
+          <div class="menu-card-body"><h4>手工汤圆</h4><p>现包现煮，芝麻花生双味，软糯香甜</p></div>
+        </div>
+
+      </div>
+
+      <div class="menu-cta fade-up">
+        <p>完整菜单及定制宴席套餐，欢迎来电咨询</p>
+        <a href="tel:18913964141" class="btn btn-primary">电话询菜单</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 雅致包厢 ===== -->
+  <section class="rooms section" id="rooms">
+    <div class="container">
+      <div class="section-header light fade-up">
+        <span class="section-label">雅致包厢</span>
+        <h2 class="section-title">静雅私境，<br/>宴享尊荣</h2>
+        <div class="divider-gold"><div class="divider-gold-inner"></div></div>
+        <p class="section-desc">餐厅设有多间风格各异的独立包厢，可容纳6至30位宾客，专属管家服务，全程私密，是商务宴请与重要聚会的理想之选。</p>
+      </div>
+
+      <div class="rooms-grid">
+        <div class="room-card room-card-large fade-up">
+          <div class="room-img placeholder-img">
+            <div class="placeholder-content">
+              <span class="placeholder-icon">🏮</span>
+              <span>包厢实景图片</span>
+            </div>
+          </div>
+          <div class="room-info">
+            <h3>龙韵厅</h3>
+            <p>最大宴会厅，可容纳30位宾客，中式古典与现代美学融合，适合大型商务宴请及重要活动。专属管家全程服务，尽显贵宾礼遇。</p>
+            <span class="room-capacity">最多30位宾客</span>
+          </div>
+        </div>
+
+        <div class="room-card fade-up" style="transition-delay:80ms">
+          <div class="room-img placeholder-img">
+            <div class="placeholder-content"><span class="placeholder-icon">🪷</span><span>包厢实景图片</span></div>
+          </div>
+          <div class="room-info">
+            <h3>雅苑厅</h3>
+            <p>文人雅士风格，书画点缀，适合小型商务谈判与精致私宴。</p>
+            <span class="room-capacity">8 – 12位</span>
+          </div>
+        </div>
+
+        <div class="room-card fade-up" style="transition-delay:160ms">
+          <div class="room-img placeholder-img">
+            <div class="placeholder-content"><span class="placeholder-icon">🌸</span><span>包厢实景图片</span></div>
+          </div>
+          <div class="room-info">
+            <h3>观云厅</h3>
+            <p>落地窗景观设计，自然采光充足，环境舒适惬意，适合商务午宴。</p>
+            <span class="room-capacity">6 – 10位</span>
+          </div>
+        </div>
+
+        <div class="room-card fade-up" style="transition-delay:240ms">
+          <div class="room-img placeholder-img">
+            <div class="placeholder-content"><span class="placeholder-icon">🎋</span><span>包厢实景图片</span></div>
+          </div>
+          <div class="room-info">
+            <h3>竹韵厅</h3>
+            <p>竹木格调，清幽雅致，适合私密小聚与重要宾客接待。</p>
+            <span class="room-capacity">6 – 8位</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="rooms-note fade-up">
+        <p>包厢预订请提前联系，节假日及重要节点建议<strong>提前3-7天</strong>预约，以确保最佳体验</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 预约联系 ===== -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-header fade-up">
+        <span class="section-label">预约联系</span>
+        <h2 class="section-title">期待您的光临</h2>
+        <div class="divider-gold"><div class="divider-gold-inner"></div></div>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-card fade-up">
+          <div class="contact-icon">📞</div>
+          <h3>电话预订</h3>
+          <p>专属管家为您服务<br/>接听时间：10:00 – 21:00</p>
+          <a href="tel:18913964141" class="contact-link">189 1396 4141</a>
+          <a href="tel:18913964141" class="btn btn-primary btn-sm" style="margin-top:1.2rem">立即拨打</a>
+        </div>
+
+        <div class="contact-card contact-card-main fade-up" style="transition-delay:80ms">
+          <img src="logo/logo3.jpg" alt="味潭龙韵" class="contact-logo" />
+          <h3>味潭龙韵</h3>
+          <p class="contact-slogan">新中式融合菜 · 高端商务宴请</p>
+          <p>匠心烹饪，以味会友</p>
+          <a href="tel:18913964141" class="btn btn-gold btn-sm" style="margin-top:1.2rem">预约雅座</a>
+        </div>
+
+        <div class="contact-card fade-up" style="transition-delay:160ms">
+          <div class="contact-icon">🛵</div>
+          <h3>美团团购</h3>
+          <p>多款宴席套餐限时优惠<br/>双人餐 · 多人宴 · 外卖配送</p>
+          <a href="http://dpurl.cn/o8D15suz" class="contact-link" id="meituan-link" target="_blank" rel="noopener">点击查看团购套餐</a>
+          <a href="http://dpurl.cn/o8D15suz" class="btn btn-primary btn-sm" style="margin-top:1.2rem" target="_blank" rel="noopener">前往美团</a>
+        </div>
+      </div>
+
+      <!-- 地址栏 -->
+      <div class="address-bar fade-up">
+        <div class="address-bar-inner">
+          <span class="address-icon">📍</span>
+          <div class="address-text">
+            <span class="address-label">餐厅地址</span>
+            <span class="address-val">南京市鼓楼区龙园西路58号黄河大厦3楼 3A-1 · 味潭龙韵</span>
+          </div>
+          <a href="https://maps.apple.com/?q=南京市鼓楼区龙园西路58号" target="_blank" rel="noopener" class="btn btn-outline btn-sm address-map-btn">地图导航</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 页脚 ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-logo">
+        <img src="logo/logo1.jpg" alt="味潭龙韵" />
+        <span>味潭龙韵</span>
+      </div>
+      <div class="footer-links">
+        <a href="#about">餐厅介绍</a>
+        <a href="#seasonal">季节活动</a>
+        <a href="#packages">团购套餐</a>
+        <a href="#menu">精品菜肴</a>
+        <a href="#rooms">雅致包厢</a>
+        <a href="#contact">预约联系</a>
+      </div>
+      <p class="footer-address">📍 南京市鼓楼区龙园西路58号黄河大厦3楼 3A-1</p>
+      <p class="footer-copy">© 2025 味潭龙韵 · 新中式融合菜 · 保留所有权利</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
